@@ -1,0 +1,75 @@
+.card-img-top{
+    border-radius: 50px;
+    padding: 20px;
+    height: 150px;
+}
+.card-content{
+    border-radius: 30px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.card-body{
+    padding-top: 25px;
+    margin-top: -20px;
+}
+.btn-primary{
+    border-radius: 30px;
+}
+.btn-primary:hover{
+    background-color: black;
+    border: none;
+}
+
+.listCart .item .col-sm {
+    font-size: 14px;
+    color: blue;
+}
+
+.image{
+    border-radius: 50px !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin-top: 0px !important;
+}
+
+.item {
+    margin-bottom: 2px !important;
+}
+
+.fa-minus {
+    margin-right: 5px;
+}
+ 
+.fa-plus {
+    margin-left: 5px;
+}
+
+.fa-minus:hover {
+    color: red;
+}
+ 
+.fa-plus:hover {
+    color: red;
+}
+
+.col .btn-danger{
+    margin-right: 10px;
+}
+
+.list_menu .col-sm-4 {
+    margin-bottom: 20px;
+}
+
+.button-action .col{
+    margin-top: 20px !important;
+}
+
+.total-payment .col {
+    margin-top: 20px !important;
+    color: black;
+    text-align: right;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 20px !important;
+}
