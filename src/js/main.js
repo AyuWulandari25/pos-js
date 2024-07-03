@@ -198,7 +198,7 @@ async function submitCheckout(){
         return;
     }
 
-    fetch(`http://localhost:3000/order_report`, {
+    fetch(`https://pos-wcdo.onrender.com/order_report`, {
         method: "POST",
         headers: {
             'Content-Type': 'application/json'
