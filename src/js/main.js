@@ -15,7 +15,10 @@ function addDataToHTML () {
                 `<div class="card card-content">
                         <img class="card-img-top" src="${product.img_url}" alt="...">
                         <div class="card-body">
-                            <p class="card-title text-center" style="color: rgb(0, 91, 228);">${product.title_menu}</p>
+                            <div class="d-sm-flex align-items-center justify-content-between">
+                            <p class="card-title" style="color: rgb(0, 91, 228);">${product.title_menu}</p>
+                             <p class="card-title" style="color: rgb(0, 91, 228);">${product.price}</p>
+                            </div>
                             <button class="btn btn-primary float-right">Add</button>
                         </div>
                     </div>`;
@@ -213,6 +216,7 @@ async function submitCheckout(){
             icon: "success",
             timer: 2000,
           });
+        removeButtonActionHtml()
     })
     .catch(error => {
         console.error("Error:", error);
